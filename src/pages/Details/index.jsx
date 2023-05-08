@@ -1,5 +1,6 @@
 import { Button } from '../../components/Button'
 import { Header } from '../../components/Header'
+import { Footer } from '../../components/Footer'
 import { Ingredient } from '../../components/Ingredient'
 import { ButtonText } from '../../components/ButtonText'
 
@@ -52,6 +53,7 @@ export function Details() {
           </div>
         </div>
       </main>
+      <Footer />
     </Container>
   )
 }
